@@ -87,6 +87,7 @@ export { default as ListMenuIcon } from "./List/MenuIcon";
 export { default as ListOptionSelected } from "./List/OptionSelected";
 export { default as ListSearchResult } from "./List/SearchResult";
 export { default as ListSearchResultLabel } from "./List/SearchResultLabel";
+// export { default as ListMeterInfo } from "./List/ListMeterInfo";
 
 // Header components
 export { default as Header } from "./Header/Header";

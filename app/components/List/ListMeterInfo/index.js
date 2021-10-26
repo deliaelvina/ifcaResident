@@ -6,7 +6,7 @@ import React from "react";
 import { TouchableOpacity, View } from "react-native";
 import styles from "./styles";
 
-const ListMeterInfo = ({
+const ListTransaction = ({
     style = {},
     icon = "",
     name = "",
@@ -46,7 +46,7 @@ const ListMeterInfo = ({
     );
 };
 
-ListMeterInfo.propTypes = {
+ListTransaction.propTypes = {
     style: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
     icon: PropTypes.string,
     name: PropTypes.string,
@@ -57,4 +57,4 @@ ListMeterInfo.propTypes = {
     onPress: PropTypes.func,
 };
 
-export default ListMeterInfo;
+export default ListTransaction;

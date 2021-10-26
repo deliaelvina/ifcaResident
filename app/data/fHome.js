@@ -17,7 +17,7 @@ export const FCategories = [
     id: 3,
     title: 'Meter Info',
     icon: 'bolt',
-    screen: 'FAddTransaction',
+    screen: 'MeterInfoScreen',
   },
   {
     id: 4,

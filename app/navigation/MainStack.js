@@ -14,6 +14,7 @@ import ProfileEdit from '@screens/ProfileEdit';
 import Review from '@screens/Review';
 import SelectFontOption from '@screens/SelectFontOption';
 import FCategory from '@screens/FCategory';
+import MeterInfoScreen from '@screens/MeterInfo';
 
 import Notification from '@screens/Notification';
 
@@ -109,6 +110,11 @@ function MainStack() {
       <Stack.Screen
         name="FCategory"
         component={FCategory}
+        options={{headerShown: false}}
+      />
+      <Stack.Screen
+        name="MeterInfoScreen"
+        component={MeterInfoScreen}
         options={{headerShown: false}}
       />
     </Stack.Navigator>
